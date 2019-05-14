@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane hbarPolicy="NEVER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="976.0" prefWidth="1446.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ThirdDisplay">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1150.0" prefWidth="1446.0">
+         <children>
+            <VBox layoutX="906.0" prefHeight="976.0" prefWidth="600.0" style="-fx-background-color: #2a3737;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="906.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label text="ABOUT ME:" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="35.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Separator maxWidth="135.0" prefWidth="0.0">
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </Separator>
+                  <Label prefHeight="25.0" prefWidth="376.0" text="I want to get rewarding profession in terms of both " textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="45.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="25.0" prefWidth="376.0" text="respect and money .I will my try my best to achieve " textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="45.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="25.0" prefWidth="376.0" text="my goal and to serve the mankind." textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="45.0" />
+                     </VBox.margin>
+                  </Label>
+                  <VBox prefWidth="100.0">
+                     <children>
+                        <Label text="PERSONAL INFRORMATION:" textFill="WHITE">
+                           <VBox.margin>
+                              <Insets left="30.0" top="20.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                        </Label>
+                        <Separator maxWidth="310.0" prefWidth="0.0">
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </Separator>
+                        <Label text="Address:" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="MADDRESS" text="Address:" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="45.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="72.0" text="Phone:" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="MPHONE" layoutX="55.0" layoutY="97.0" text="phone" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="45.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="132.0" text="Email:" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="MEMAIL" layoutX="55.0" layoutY="157.0" text="Email" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="45.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="192.0" text="D.O.B" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="MDOB" layoutX="55.0" layoutY="217.0" text="D.O.B" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="45.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="30.0" text="EDUCATIONAL DETAILS:" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Separator layoutX="50.0" layoutY="59.0" maxWidth="310.0" prefWidth="0.0">
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin></Separator>
+                        <Label layoutX="40.0" layoutY="72.0" text="Bachelor:" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="MUNII" layoutX="55.0" layoutY="97.0" text="UET Taxila" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="45.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox>
+                           <children>
+                              <Label fx:id="MUNISTART" text="From" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="45.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="15.0" text="-" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="35.0" top="4.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="MUNIEND" layoutX="118.0" layoutY="14.0" text="To" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="35.0" top="4.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label fx:id="MDEPARTMENT" layoutX="55.0" layoutY="389.0" text="Department" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="45.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox layoutX="10.0" layoutY="414.0">
+                           <children>
+                              <Label fx:id="MCGPA" text="CGPA" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="45.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="15.0" text="/" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="35.0" top="4.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="UNIEND1" layoutX="118.0" layoutY="14.0" text="4.00" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="35.0" top="4.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label layoutX="40.0" layoutY="364.0" text="Intermediate:" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="MCLGNAME" layoutX="55.0" layoutY="389.0" text="College Name" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="45.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox layoutX="10.0" layoutY="414.0">
+                           <children>
+                              <Label fx:id="MCLGFROM" text="From" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="45.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="15.0" text="-" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="35.0" top="4.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="MCOLGTO" layoutX="118.0" layoutY="14.0" text="To" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="35.0" top="4.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label fx:id="MCLGPER" layoutX="55.0" layoutY="449.0" text="Percentage" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="45.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="514.0" text="Matriculation:" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="MSCLNAME" layoutX="55.0" layoutY="539.0" text="School Name" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="45.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox layoutX="10.0" layoutY="564.0">
+                           <children>
+                              <Label fx:id="MSCLFROM" text="From" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="45.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="15.0" text="-" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="35.0" top="4.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="MSCLTO" layoutX="118.0" layoutY="14.0" text="To" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="35.0" top="4.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label fx:id="MSCLPER" layoutX="55.0" layoutY="599.0" text="Percentage" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="45.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </VBox>
+               </children></VBox>
+            <HBox alignment="CENTER" layoutX="-9.0" prefHeight="119.0" prefWidth="906.0" style="-fx-background-color: #1cdbd2;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="540.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label fx:id="MFNAME" alignment="CENTER" text="Nasir" textFill="RED">
+                     <font>
+                        <Font name="System Bold Italic" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="MLNAME" alignment="CENTER" text="Mehmood" textFill="#fa0707">
+                     <font>
+                        <Font name="System Bold Italic" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+               </children></HBox>
+            <VBox layoutX="-13.0" layoutY="119.0" prefHeight="898.0" prefWidth="923.0" AnchorPane.bottomAnchor="134.0" AnchorPane.leftAnchor="-13.0">
+               <children>
+                  <Label alignment="CENTER" text="SOFTWARE SKILLS:">
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="100.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="MSKILLS" prefHeight="162.0" text="Label">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="100.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="50.0" layoutY="30.0" text="WORKING EXPERIENCE:">
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="100.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="MWORKING" layoutX="50.0" layoutY="79.0" prefHeight="162.0" text="Label">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="100.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="50.0" layoutY="241.0" text="CERTIFICATION:">
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="100.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="MCERTIFICATION" layoutX="50.0" layoutY="290.0" prefHeight="162.0" text="Label">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="100.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="50.0" layoutY="452.0" text="HOBBIES:">
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="100.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="MHOBBIES" layoutX="50.0" layoutY="501.0" prefHeight="162.0" text="Label">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="100.0" />
+                     </VBox.margin>
+                  </Label>
+               </children></VBox>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

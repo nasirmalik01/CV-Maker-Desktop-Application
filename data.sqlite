@@ -1,0 +1,6 @@
+create table data
+(
+  username varchar(50),
+  password varchar(40),
+  email varchar(50)
+);

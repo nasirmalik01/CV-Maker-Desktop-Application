@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.displayCV">
+    <children>
+        <HBox alignment="TOP_RIGHT" prefHeight="52.0" prefWidth="1200.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label fx:id="FName" text="FName" textFill="#ff0808">
+                    <font>
+                        <Font name="System Bold Italic" size="26.0" />
+                    </font>
+                </Label>
+                <Label fx:id="LName" text="LName" textFill="#ff0808">
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold Italic" size="26.0" />
+                    </font>
+                </Label>
+            </children>
+            <padding>
+                <Insets bottom="5.0" left="15.0" right="15.0" top="15.0" />
+            </padding>
+        </HBox>
+        <VBox layoutY="50.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="45.0">
+            <children>
+                <HBox alignment="CENTER_RIGHT">
+                    <children>
+                        <VBox prefWidth="88.0">
+                            <children>
+                                <Label fx:id="address" text="Address">
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin>
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="phone" text="Phone">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="email" text="Email">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="dob" layoutX="10.0" layoutY="44.0" text="DOB">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+      <VBox layoutX="56.0" layoutY="129.0">
+         <children>
+            <HBox>
+               <children>
+                  <Label prefHeight="15.0" prefWidth="89.0" text="Objective">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="109.0" layoutY="173.0" prefHeight="50.0" prefWidth="1109.0">
+         <children>
+            <Label text="I want to get rewarding profession in terms of both respect and money. Seeking employment that allows me to grow professionally while being able to ">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="10.0" layoutY="10.0" text="utilize my skills for the betterment of organization.I will my try my best to achieve my goal and to serve the mankind">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <Separator layoutX="100.0" layoutY="163.0" prefHeight="3.0" prefWidth="1129.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" layoutY="287.0" prefHeight="30.0" prefWidth="199.0" text="Bachelor:">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="99.0" layoutY="277.0" prefHeight="3.0" prefWidth="1129.0" AnchorPane.topAnchor="277.0" />
+      <Label layoutX="60.0" layoutY="242.0" prefHeight="30.0" prefWidth="199.0" text="Educational Details:">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="326.0" prefHeight="20.0" text="University Name : ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="435.0" text="Department :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="477.0" text="GGPA :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="uni1" layoutX="106.0" layoutY="360.0" prefHeight="20.0" text="From :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="uni" layoutX="244.0" layoutY="326.0" prefHeight="25.0" prefWidth="200.0" text="University Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="unistart" layoutX="244.0" layoutY="360.0" prefHeight="20.0" text="From">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="unidept" layoutX="240.0" layoutY="435.0" text="Department :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="cgpa" layoutX="241.0" layoutY="477.0" text="GGPA :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="uniend" layoutX="244.0" layoutY="399.0" prefHeight="20.0" text="To">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="uniend1" layoutX="106.0" layoutY="399.0" prefHeight="20.0" text="To :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="532.0" layoutY="284.0" prefHeight="30.0" prefWidth="199.0" text="Intermdiate:">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="510.0" layoutY="323.0" prefHeight="20.0" text="College Name :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="clgname" layoutX="648.0" layoutY="323.0" prefHeight="25.0" prefWidth="200.0" text="College Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="510.0" layoutY="436.0" text="Percentage :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="uni11" layoutX="511.0" layoutY="361.0" prefHeight="20.0" text="From :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="clgfrom" layoutX="649.0" layoutY="361.0" prefHeight="20.0" text="From">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="clgper" layoutX="645.0" layoutY="436.0" text="Percentage">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="clgto" layoutX="649.0" layoutY="400.0" prefHeight="20.0" text="To">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="uniend11" layoutX="511.0" layoutY="400.0" prefHeight="20.0" text="To :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="951.0" layoutY="285.0" prefHeight="30.0" prefWidth="199.0" text="Matriculation:">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="929.0" layoutY="324.0" prefHeight="20.0" text="School Name :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="sclname" layoutX="1067.0" layoutY="324.0" prefWidth="200.0" text="School Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="929.0" layoutY="437.0" text="Percentage :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="uni111" layoutX="930.0" layoutY="362.0" prefHeight="20.0" text="From :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="sclfrom" layoutX="1068.0" layoutY="362.0" prefHeight="20.0" text="From">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="sclper" layoutX="1064.0" layoutY="437.0" text="Percentage">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="sclto" layoutX="1068.0" layoutY="401.0" prefHeight="20.0" text="To">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="uniend111" layoutX="930.0" layoutY="401.0" prefHeight="20.0" text="To :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+        <Label layoutX="57.0" layoutY="511.0" prefHeight="30.0" prefWidth="154.0" text="Software Skills">
+            <font>
+                <Font name="System Bold Italic" size="20.0" />
+            </font>
+        </Label>
+        <Separator layoutX="99.0" layoutY="550.0" prefHeight="3.0" prefWidth="253.0" />
+      <ScrollPane layoutX="90.0" layoutY="569.0" prefHeight="121.0" prefWidth="291.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="800.0">
+               <children>
+                  <Label fx:id="skills" alignment="CENTER" layoutX="14.0" layoutY="2.0" text="Label">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Label layoutX="424.0" layoutY="520.0" prefHeight="30.0" prefWidth="212.0" text="Working Experience:">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="466.0" layoutY="559.0" prefHeight="3.0" prefWidth="253.0" />
+      <HBox layoutX="434.0" layoutY="569.0" />
+      <ScrollPane layoutX="457.0" layoutY="569.0" prefHeight="121.0" prefWidth="283.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="800.0">
+               <children>
+                  <Label fx:id="workingexperience" layoutX="14.0" layoutY="2.0" text="Label">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+      <Label layoutX="780.0" layoutY="526.0" prefHeight="30.0" prefWidth="212.0" text="Certification:">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="803.0" layoutY="561.0" prefHeight="3.0" prefWidth="240.0" />
+      <ScrollPane layoutX="816.0" layoutY="569.0" prefHeight="121.0" prefWidth="274.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="800.0">
+               <children>
+                  <Label fx:id="certifcation" layoutX="14.0" layoutY="2.0" text="Label">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+      <Label layoutX="1114.0" layoutY="537.0" prefHeight="30.0" prefWidth="212.0" text="Hobbies:">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="1120.0" layoutY="568.0" prefHeight="3.0" prefWidth="154.0" />
+      <ScrollPane layoutX="1129.0" layoutY="571.0" prefHeight="121.0" prefWidth="154.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="353.0" prefWidth="227.0">
+               <children>
+                  <Label fx:id="hobbies" layoutX="14.0" layoutY="2.0" text="Label">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+
+    </children>
+</AnchorPane>
